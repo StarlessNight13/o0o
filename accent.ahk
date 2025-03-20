@@ -3,8 +3,8 @@
 
 exnglish := "0x409"
 
-^!PgDn:: Suspend  ; Suspend script with Ctrl+Alt+S
-^!PgUp:: Reload   ; Reload script with Ctrl+Alt+R
+^!PgDn:: Suspend  ; Suspend script with Ctrl+Alt+PgDown
+^!PgUp:: Reload   ; Reload script with Ctrl+Alt+PgUp
 
 #HotIf GetInputLangID() == exnglish
 Home & a:: {
